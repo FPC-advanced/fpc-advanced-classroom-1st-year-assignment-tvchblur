@@ -15,7 +15,7 @@ void output(int n, int sum);
 int input_n(){
     printf("Enter a natural number.\n");
     int n;
-    scanf("%d", n);
+    scanf("%d", &n);
     return n;
 }
 
