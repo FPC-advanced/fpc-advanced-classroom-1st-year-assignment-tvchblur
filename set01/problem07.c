@@ -23,7 +23,7 @@ int sum_n_nos(int n){
     int sum=0;
     int inc=0;
     for(inc=1;inc<=n;inc++){
-        sum = sum + 1;
+        sum += inc;
     }
     return sum;
 }
