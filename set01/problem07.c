@@ -22,7 +22,7 @@ int input_n(){
 int sum_n_nos(int n){
     int sum=0;
     int inc=0;
-    for(inc=0;inc<=n;inc++){
+    for(inc=1;inc<=n;inc++){
         sum = sum + 1;
     }
     return sum;
