@@ -1,6 +1,6 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231030092220
+Start time: 20231030100724
 Username: TRISH\hp
 RunAs User: TRISH\hp
 Configuration Name: 
@@ -17,8 +17,3 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem09_session.txt
-PS C:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01> Stop-Transcript
-**********************
-Windows PowerShell transcript end
-End time: 20231030093220
-**********************
