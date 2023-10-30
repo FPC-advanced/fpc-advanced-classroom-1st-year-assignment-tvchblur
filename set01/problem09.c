@@ -28,6 +28,9 @@ float input(){
 }
 
 float square_root(float n){
+    int x;
+    int y;
+    
     
 
 }
