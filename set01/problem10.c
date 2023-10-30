@@ -24,4 +24,10 @@ float input(){
 
 }
 
-float square_root(float n)
+float square_root(float n){
+
+}
+
+void output(float m, float sqrroot){
+    
+}
