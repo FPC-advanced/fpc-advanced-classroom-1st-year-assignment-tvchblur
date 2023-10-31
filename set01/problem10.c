@@ -20,4 +20,8 @@ Enter the second string: world*/
 
 #include <stdio.h>
 
-void input_two_string
+void input_two_strings(char *string1, char *string2){
+
+}
+
+int stringcompare(char *string1, char *string2)
