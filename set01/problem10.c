@@ -28,4 +28,10 @@ int stringcompare(char *string1, char *string2){
 
 }
 
-void output(char *string1, char *string2, int result)
+void output(char *string1, char *string2, int result){
+
+}
+
+int main(void){
+    
+}
