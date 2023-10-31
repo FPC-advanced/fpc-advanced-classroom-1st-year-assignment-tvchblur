@@ -37,5 +37,6 @@ void output(int n, Complex c[n], Complex result);
 int main(void){
     int n;
     n = get_n();
+    int 
 
 }
