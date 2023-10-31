@@ -21,6 +21,7 @@ Enter the second string: world*/
 #include <stdio.h>
 
 void input_two_strings(char *string1, char *string2){
+    printf("")
 
 }
 
@@ -33,5 +34,5 @@ void output(char *string1, char *string2, int result){
 }
 
 int main(void){
-    
+
 }
