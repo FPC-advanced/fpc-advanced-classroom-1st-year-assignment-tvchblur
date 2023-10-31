@@ -35,7 +35,8 @@ Complex input_complex(){
     Complex a, b;
     printf("Enter the real and imaginary parts of the first number:\n");
     scanf("%f%f", a.real, a.imaginary);
-    printf("")
+    printf("Enter the real and imaginary parts of the second number:\n");
+    scanf("%f%f", b.real, b.imaginary)
 
 
 }
