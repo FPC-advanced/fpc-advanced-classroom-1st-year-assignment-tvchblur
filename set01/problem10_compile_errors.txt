@@ -37,3 +37,7 @@ c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assign
  void output(char *string1, char *string2, int result){
       ^~~~~~
 Compilation finished at 10/31/2023, 11:47:25 AM
+Compilation started at 10/31/2023, 11:59:17 AM
+Compilation finished at 10/31/2023, 11:59:18 AM
+Compilation started at 10/31/2023, 11:59:29 AM
+Compilation finished at 10/31/2023, 11:59:29 AM
