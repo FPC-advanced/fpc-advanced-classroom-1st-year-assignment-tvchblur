@@ -45,5 +45,7 @@ void output(Complex a, Complex b, Complex sum){
 }
 
 int main(void){
+    Complex a, b;
+    a= input_complex()
 
 }
