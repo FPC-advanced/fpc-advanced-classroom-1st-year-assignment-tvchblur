@@ -1,0 +1,15 @@
+Starting program: C:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01/./problem11.exe 
+[New Thread 13916.0x2f00]
+[New Thread 13916.0x31ac]
+
+Program received signal SIGSEGV, Segmentation fault.
+0x76ed2779 in msvcrt!$I10_OUTPUT () from C:\WINDOWS\SysWOW64\msvcrt.dll
+The program being debugged has been started already.
+Start it from the beginning? (y or n) 
+Starting program: C:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01/./problem11.exe 
+[New Thread 8168.0x110c]
+[New Thread 8168.0x183c]
+
+Program received signal SIGSEGV, Segmentation fault.
+0x76ed2779 in msvcrt!$I10_OUTPUT () from C:\WINDOWS\SysWOW64\msvcrt.dll
+Undefined set logging command: "enabled off".  Try "help set logging".
