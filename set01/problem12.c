@@ -36,7 +36,11 @@ struct _complex {
 
 typedef struct _complex Complex;
 
-int get_n();
+int get_n(){
+    printf("Enter the size of the array:\n");
+    int n;
+    scanf("%d")
+}
 Complex input_complex();
 void input_n_complex(int n, Complex c[n]);
 Complex add(Complex a, Complex b);
@@ -44,5 +48,5 @@ Complex add_n_complex(int n, Complex c[n]);
 void output(int n, Complex c[n], Complex result);
 
 int main(void){
-    
+
 }
