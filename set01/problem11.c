@@ -32,6 +32,7 @@ struct _complex{
 typedef struct _complex Complex;
 
 Complex input_complex(){
+    printf("Enter ")
 
 }
 Complex add_complex(Complex a, Complex b){
@@ -42,5 +43,5 @@ void output(Complex a, Complex b, Complex sum){
 }
 
 int main(void){
-    
+
 }
