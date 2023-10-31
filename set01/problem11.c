@@ -38,6 +38,7 @@ Complex input_complex(){
     return a;
 }
 Complex add_complex(Complex a, Complex b){
+    
 
 }
 void output(Complex a, Complex b, Complex sum){
@@ -46,6 +47,7 @@ void output(Complex a, Complex b, Complex sum){
 
 int main(void){
     Complex a, b;
-    a= input_complex()
+    a= input_complex();
+    b= input_complex();
 
 }
