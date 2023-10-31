@@ -44,6 +44,7 @@ Complex add_complex(Complex a, Complex b){
     return sum;
 }
 void output(Complex a, Complex b, Complex sum){
+    printf("%f + %f")
 
 }
 
@@ -52,5 +53,6 @@ int main(void){
     a= input_complex();
     b= input_complex();
     sum = add_complex(a,b);
-
+    output(a, b, sum);
+    return 0;
 }
