@@ -52,7 +52,7 @@ int stringcompare(char *string1, char *string2){
             }
         }
         
-    }
+    
     return result;
 
 }
