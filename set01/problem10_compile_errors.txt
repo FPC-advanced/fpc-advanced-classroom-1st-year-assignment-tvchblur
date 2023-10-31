@@ -1,0 +1,39 @@
+Compilation started at 10/31/2023, 11:47:24 AM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c: In function 'main':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:62:23: warning: passing argument 1 of 'input_two_strings' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_two_strings(&string1, &string2);
+                       ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:23:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void input_two_strings(char *string1, char *string2){
+      ^~~~~~~~~~~~~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:62:33: warning: passing argument 2 of 'input_two_strings' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_two_strings(&string1, &string2);
+                                 ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:23:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void input_two_strings(char *string1, char *string2){
+      ^~~~~~~~~~~~~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:63:28: warning: passing argument 1 of 'stringcompare' from incompatible pointer type [-Wincompatible-pointer-types]
+     result = stringcompare(&string1, &string2);
+                            ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:30:5: note: expected 'char *' but argument is of type 'char (*)[100]'
+ int stringcompare(char *string1, char *string2){
+     ^~~~~~~~~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:63:38: warning: passing argument 2 of 'stringcompare' from incompatible pointer type [-Wincompatible-pointer-types]
+     result = stringcompare(&string1, &string2);
+                                      ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:30:5: note: expected 'char *' but argument is of type 'char (*)[100]'
+ int stringcompare(char *string1, char *string2){
+     ^~~~~~~~~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:64:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&string1, &string2, result);
+            ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:47:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void output(char *string1, char *string2, int result){
+      ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:64:22: warning: passing argument 2 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&string1, &string2, result);
+                      ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:47:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void output(char *string1, char *string2, int result){
+      ^~~~~~
+Compilation finished at 10/31/2023, 11:47:25 AM

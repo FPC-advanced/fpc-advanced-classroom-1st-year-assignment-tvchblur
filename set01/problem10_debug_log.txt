@@ -12,3 +12,21 @@ warning: Source file is more recent than executable.
 63	    result = stringcompare(&string1, &string2);
 64	    output(&string1, &string2, result);
 65	}Line number 66 out of range; c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c has 65 lines.
+Breakpoint 1 at 0x401466: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c, line 12.
+Breakpoint 2 at 0x40157c: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c, line 59.
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401466 in input_two_strings 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:12
+2       breakpoint     keep y   0x0040157c in main 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:59
+Starting program: C:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01/./problem10.exe 
+[New Thread 11464.0x3308]
+[New Thread 11464.0x538]
+
+Breakpoint 2, main () at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set01\problem10.c:62
+62	    input_two_strings(&string1, &string2);
+A debugging session is active.
+
+	Inferior 1 [process 11464] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
