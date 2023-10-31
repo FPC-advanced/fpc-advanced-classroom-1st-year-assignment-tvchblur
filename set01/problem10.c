@@ -37,5 +37,6 @@ void output(char *string1, char *string2, int result){
 
 int main(void){
     char string1[100], string2[100];
+    input_two_strings(&string1, )
 
 }
