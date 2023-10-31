@@ -38,7 +38,8 @@ Complex input_complex(){
     return a;
 }
 Complex add_complex(Complex a, Complex b){
-    
+    Complex sum;
+    sum.real = 
 
 }
 void output(Complex a, Complex b, Complex sum){
