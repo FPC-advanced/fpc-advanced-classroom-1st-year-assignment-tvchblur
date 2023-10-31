@@ -44,7 +44,7 @@ Complex add_complex(Complex a, Complex b){
     return sum;
 }
 void output(Complex a, Complex b, Complex sum){
-    printf("The sum of ")
+    printf("The sum of %f+%fi and %f+%fi is ")
 
 }
 
