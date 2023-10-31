@@ -41,15 +41,16 @@ Complex add_complex(Complex a, Complex b){
     Complex sum;
     sum.real = a.real + b.real;
     sum.imaginary = a.imaginary + b.imaginary;
-
+    return sum;
 }
 void output(Complex a, Complex b, Complex sum){
 
 }
 
 int main(void){
-    Complex a, b;
+    Complex a, b, sum;
     a= input_complex();
     b= input_complex();
+    sum = add_complex(a,b);
 
 }
