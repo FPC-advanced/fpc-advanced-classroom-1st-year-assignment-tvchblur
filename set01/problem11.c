@@ -32,13 +32,10 @@ struct _complex{
 typedef struct _complex Complex;
 
 Complex input_complex(){
-    Complex a, b;
-    printf("Enter the real and imaginary parts of the first number:\n");
+    Complex a;
+    printf("Enter the real and imaginary parts of the number:\n");
     scanf("%f%f", a.real, a.imaginary);
-    printf("Enter the real and imaginary parts of the second number:\n");
-    scanf("%f%f", b.real, b.imaginary)
-
-
+    return a;
 }
 Complex add_complex(Complex a, Complex b){
 
