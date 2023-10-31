@@ -33,6 +33,7 @@ Enter the number of arrays: 3
 struct _complex {
 	float real,imaginary;
 };
+
 typedef struct _complex Complex;
 
 int get_n();
@@ -41,3 +42,7 @@ void input_n_complex(int n, Complex c[n]);
 Complex add(Complex a, Complex b);
 Complex add_n_complex(int n, Complex c[n]);
 void output(int n, Complex c[n], Complex result);
+
+int main(void){
+    
+}
