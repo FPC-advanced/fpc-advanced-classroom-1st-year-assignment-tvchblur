@@ -21,7 +21,8 @@ Enter the second string: world*/
 #include <stdio.h>
 
 void input_two_strings(char *string1, char *string2){
-    printf("")
+    printf("Enter the first string:\n");
+    scanf("%c", &string1)
 
 }
 
