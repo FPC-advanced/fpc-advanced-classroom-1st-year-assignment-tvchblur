@@ -42,7 +42,12 @@ void input_n_complex(int n, Complex c[n]){
 
 }
 
-Complex add(Complex a, Complex b);
+Complex add(Complex a, Complex b){
+    int index=0;
+    
+}
+
+
 Complex add_n_complex(int n, Complex c[n]);
 void output(int n, Complex c[n], Complex result);
 
