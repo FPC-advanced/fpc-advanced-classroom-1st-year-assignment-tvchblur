@@ -37,7 +37,7 @@ void input_n_complex(int n, Complex c[n]){
     int index=0;
     for(index=0; index<n; index++){
         printf("Append the real and imaginary parts:\n");
-        scanf("%f%f", &c[n].real, &c[n].imaginary);
+        scanf("%f%f", &c[index].real, &c[index].imaginary);
     }
 
 }
@@ -50,5 +50,7 @@ int main(void){
     int n;
     n = get_n();
     Complex c[n];
+    input_n_complex();
+    
 
 }
