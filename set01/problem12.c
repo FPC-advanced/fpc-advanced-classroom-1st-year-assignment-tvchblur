@@ -26,10 +26,22 @@ int get_n(){
     scanf("%d", &n);
     return n;
 }
-Complex input_complex(){
+
+/*Complex input_complex(){
+    printf("Enter ")
+
+
+}*/
+
+void input_n_complex(int n, Complex c[n]){
+    int index=0;
+    for(index=0; index<n; index++){
+        printf("Append the real and imaginary parts:\n");
+        scanf("%f%f", &c[n].real, &c[n].imaginary);
+    }
 
 }
-void input_n_complex(int n, Complex c[n]);
+
 Complex add(Complex a, Complex b);
 Complex add_n_complex(int n, Complex c[n]);
 void output(int n, Complex c[n], Complex result);
@@ -37,6 +49,6 @@ void output(int n, Complex c[n], Complex result);
 int main(void){
     int n;
     n = get_n();
-    int 
+    Complex c[n];
 
 }
