@@ -42,10 +42,9 @@ Complex add_n_complex(int n, Complex c[n]){
     Complex sum;
     for(index=0;index<n;index++){
         sum.real += c[index].real;
-        sum.imaginary 
-        
+        sum.imaginary += c[index].imaginary;        
     }
-
+    return sum;
 }
 
 void output(int n, Complex c[n], Complex result);
@@ -55,6 +54,4 @@ int main(void){
     n = get_n();
     Complex c[n];
     input_n_complex(n, c);
-
-
 }
