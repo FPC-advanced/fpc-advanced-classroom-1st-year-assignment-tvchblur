@@ -47,11 +47,16 @@ Complex add_n_complex(int n, Complex c[n]){
     return sum;
 }
 
-void output(int n, Complex c[n], Complex result);
+void output(int n, Complex c[n], Complex result){
+    printf("The sum of all %d complex numbers is %f+%fi.\n", n, result.real, result.imaginary);
+}
 
 int main(void){
     int n;
     n = get_n();
     Complex c[n];
     input_n_complex(n, c);
+    Complex sum;
+    sum = add_n_complex(n, c);
+    output(n, c, sum);
 }
