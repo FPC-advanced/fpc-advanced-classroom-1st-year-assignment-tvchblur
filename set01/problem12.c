@@ -50,7 +50,7 @@ int main(void){
     int n;
     n = get_n();
     Complex c[n];
-    input_n_complex();
-    
+    input_n_complex(n, c);
+
 
 }
