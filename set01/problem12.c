@@ -41,7 +41,8 @@ Complex add_n_complex(int n, Complex c[n]){
     int index=0;
     Complex sum;
     for(index=0;index<n;index++){
-        sum.real += 
+        sum.real += c[index].real;
+        sum.imaginary 
         
     }
 
