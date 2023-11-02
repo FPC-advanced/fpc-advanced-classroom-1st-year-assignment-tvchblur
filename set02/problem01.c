@@ -19,8 +19,7 @@ The area of the traingle with base 1.000000 and height 2.000000 is 1.000000*/
 #include <stdio.h>
 
 void input(float *base, float *height){
-    
-
+    printf("Enter the ")
 }
 
 void find_area(float base, float height, float *area){
