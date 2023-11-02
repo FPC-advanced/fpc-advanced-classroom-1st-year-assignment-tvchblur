@@ -18,7 +18,7 @@ int input_side(){
 int check_scalene(int a, int b, int c){
     int result;
     if(a==b && a==c){
-        printf("The triangle with sides %d, %d and %d is scalene.")
+        printf("The triangle with sides %d, %d and %d is not scalene.")
     }
 }
 
