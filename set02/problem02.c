@@ -25,6 +25,6 @@ void output(int a, int b, int c, int isscalene){
 
 int main(void){
     int a, b, c, insscalene;
-    
+    a = 
 
 }
