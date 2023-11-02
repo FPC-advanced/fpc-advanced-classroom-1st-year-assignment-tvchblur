@@ -25,6 +25,8 @@ void output(int a, int b, int c, int isscalene){
 
 int main(void){
     int a, b, c, insscalene;
-    a = 
+    a = input_side();
+    b= input_side();
+    c = input_side();
 
 }
