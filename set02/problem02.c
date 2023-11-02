@@ -19,3 +19,5 @@ void output(int a, int b, int c, int isscalene);
 ***Output***
 ```
 The triangle with sides 5, 4 and 5 is not scalene*/
+
+int 
