@@ -29,5 +29,9 @@ int check_scalene(int a, int b, int c){
 }
 
 void output(int a, int b, int c, int isscalene){
+
+}
+
+int main(void){
     
 }
