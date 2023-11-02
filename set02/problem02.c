@@ -23,3 +23,7 @@ The triangle with sides 5, 4 and 5 is not scalene*/
 int input_side(){
 
 }
+
+int check_scalene(int a, int b, int c){
+    
+}
