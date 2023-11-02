@@ -32,5 +32,6 @@ void output(float base, float height, float area){
 }
 
 int main(void){
+    
 
 }
