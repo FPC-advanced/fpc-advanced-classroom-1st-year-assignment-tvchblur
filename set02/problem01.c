@@ -24,12 +24,11 @@ void input(float *base, float *height){
 }
 
 void find_area(float base, float height, float *area){
-    *area = base
-
+    *area = base * height;
 }
 
 void output(float base, float height, float area){
-
+    
 }
 
 int main(void){
