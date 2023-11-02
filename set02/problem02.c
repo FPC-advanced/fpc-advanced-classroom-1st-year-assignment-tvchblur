@@ -9,7 +9,8 @@
 The triangle with sides 5, 4 and 5 is not scalene*/
 
 int input_side(){
-    
+    printf("Enter a side of the triangle:\n");
+    scanf("%d", &a)
 
 }
 
