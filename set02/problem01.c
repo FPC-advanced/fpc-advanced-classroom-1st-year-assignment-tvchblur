@@ -20,10 +20,11 @@ The area of the traingle with base 1.000000 and height 2.000000 is 1.000000*/
 
 void input(float *base, float *height){
     printf("Enter the base and height of the triangle:\n");
-    scanf("%d", base, height);
+    scanf("%f%f", base, height);
 }
 
 void find_area(float base, float height, float *area){
+    *area = base
 
 }
 
