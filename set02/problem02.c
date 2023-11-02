@@ -24,6 +24,8 @@ int check_scalene(int a, int b, int c){
     if(a==b || a==c){
         printf("The triangle with sides %d, %d and %d is not scalene.",a,b,c);
     }
+
+    if()
 }
 
 void output(int a, int b, int c, int isscalene){
