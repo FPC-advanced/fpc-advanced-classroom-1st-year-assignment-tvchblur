@@ -33,5 +33,7 @@ void output(float base, float height, float area){
 
 int main(void){
     float base, height, area;
-    input()
+    input(&base, &height);
+    find_area(base, height &area);
+    output(base, height, area);
 }
