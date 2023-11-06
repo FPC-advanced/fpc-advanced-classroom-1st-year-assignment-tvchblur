@@ -46,7 +46,8 @@ void output(int n, int result){
     if(flag=0){
         printf("%d is a composite number.\n", n);
     }
-    
+    else if(flag=1){
+        printf("%d is a prime number.\n", n);    }
 
 }
 
