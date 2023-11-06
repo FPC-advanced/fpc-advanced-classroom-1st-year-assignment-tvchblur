@@ -39,8 +39,8 @@ int is_composite(int n){
             else if(n%i!=0){
                 flag=1;
             }
-            return flag;
         }
+        return flag;
 }
 
 void output(int n, int result){
