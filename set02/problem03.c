@@ -43,6 +43,9 @@ int is_composite(int n){
 }
 
 void output(int n, int result){
+    if(flag=0){
+        printf("The number is ")
+    }
 
 }
 
@@ -50,7 +53,7 @@ int main(void){
     int n, iscomp;
     n = input_number();
     iscomp= is_composite(n);
-    output(n, iscomp)
+    output(n, iscomp);
 
 }
 
