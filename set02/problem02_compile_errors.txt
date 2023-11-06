@@ -1,0 +1,97 @@
+Compilation started at 11/2/2023, 4:39:02 PM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c: In function 'input_side':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:13:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter a side of the triangle:\n");
+     ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:13:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:13:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:14:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d", &a);
+     ^~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:14:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:14:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c: In function 'check_scalene':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:22:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The triangle with sides %d, %d and %d is not scalene.",a,b,c);
+         ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:22:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:27:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The triangle with sides %d, %d and %d is scalene.",a,b,c);
+         ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:27:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c: In function 'output':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:34:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The triangle with sides %d, %d and %d is not scalene.",a,b,c);
+         ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:34:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:38:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The triangle with sides %d, %d and %d is scalene.",a,b,c);
+         ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:38:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/2/2023, 4:39:03 PM
+Compilation started at 11/2/2023, 4:39:22 PM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c: In function 'input_side':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:13:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter a side of the triangle:\n");
+     ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:13:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:13:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:14:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d", &a);
+     ^~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:14:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:14:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c: In function 'output':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:32:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The triangle with sides %d, %d and %d is not scalene.",a,b,c);
+         ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:32:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:36:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The triangle with sides %d, %d and %d is scalene.",a,b,c);
+         ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:36:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/2/2023, 4:39:23 PM
+Compilation started at 11/2/2023, 4:39:29 PM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c: In function 'input_side':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:13:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter a side of the triangle:\n");
+     ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:13:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:13:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:14:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d", &a);
+     ^~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:14:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:14:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c: In function 'output':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:32:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The triangle with sides %d, %d and %d is not scalene.",a,b,c);
+         ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:32:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:36:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The triangle with sides %d, %d and %d is scalene.",a,b,c);
+         ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:36:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/2/2023, 4:39:30 PM
+Compilation started at 11/2/2023, 4:40:00 PM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c: In function 'input_side':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:13:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter a side of the triangle:\n");
+     ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:13:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:13:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:14:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d", &a);
+     ^~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:14:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:14:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c: In function 'output':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:32:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The triangle with sides %d, %d and %d is not scalene.",a,b,c);
+         ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:32:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:36:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("The triangle with sides %d, %d and %d is scalene.",a,b,c);
+         ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem02.c:36:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/2/2023, 4:40:01 PM

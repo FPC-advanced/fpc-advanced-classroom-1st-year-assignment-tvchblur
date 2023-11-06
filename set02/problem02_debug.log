@@ -1,0 +1,18 @@
++run
+Starting program: C:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02/./problem02.exe 
+[New Thread 13156.0xec4]
+[New Thread 13156.0x1e88]
+[Inferior 1 (process 13156) exited normally]
++l
+warning: Source file is more recent than executable.
+33	        printf("The triangle with sides %d, %d and %d is not scalene.",a,b,c);
+34	    }
+35	
+36	    if(isscalene=1){
+37	        printf("The triangle with sides %d, %d and %d is scalene.",a,b,c);
+38	    }
+39	}
+40	
+41	int main(void){
+42	    int a, b, c, isscalene;
++q
