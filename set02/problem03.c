@@ -47,8 +47,10 @@ void output(int n, int result){
 }
 
 int main(void){
-    int n;
+    int n, iscomp;
     n = input_number();
+    iscomp= is_composite(n);
+    output(n, iscomp)
 
 }
 
