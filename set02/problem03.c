@@ -57,5 +57,6 @@ int main(void){
     n = input_number();
     iscomp= is_composite(n);
     output(n, iscomp);
+    return 0;
 }
 
