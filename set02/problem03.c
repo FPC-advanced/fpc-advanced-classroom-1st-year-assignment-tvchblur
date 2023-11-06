@@ -43,10 +43,10 @@ int is_composite(int n){
 }
 
 void output(int n, int result){
-    if(result=0){
+    if(result==0){
         printf("%d is a composite number.\n", n);
     }
-    else if(result=1){
+    else if(result==1){
         printf("%d is a prime number.\n", n);
     }
 }
