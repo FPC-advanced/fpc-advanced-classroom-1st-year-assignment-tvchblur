@@ -29,22 +29,27 @@ int input_number(){
 }
 
 int is_composite(int n){
-    int i=0;
-    int flag=0;
-        for(i=0; i<=sqrt(n); i++){
+    int i, result=1;
+        for(i=2; i<=sqrt(n); i++){
             if(n%i==0){
-                flag = 0;
+                result = 0;
+                break;
             }
 
             else if(n%i!=0){
-                flag=1;
+                result=1;
             }
         }
-        return flag;
+        return result;
+
 }
 
 void output(int n, int result){
-    if(result==0){
+    if(n==1){
+        printf("1 is neither prime nor composite.\n");
+    }
+
+    else if(result==0){
         printf("%d is a composite number.\n", n);
     }
     else if(result==1){
@@ -53,7 +58,8 @@ void output(int n, int result){
 }
 
 int main(void){
-    int n, iscomp;
+    int n;
+    int iscomp;
     n = input_number();
     iscomp= is_composite(n);
     output(n, iscomp);

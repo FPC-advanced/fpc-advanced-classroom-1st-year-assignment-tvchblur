@@ -6,3 +6,18 @@ Compilation started at 11/6/2023, 9:42:47 AM
 Compilation finished at 11/6/2023, 9:42:47 AM
 Compilation started at 11/6/2023, 9:43:35 AM
 Compilation finished at 11/6/2023, 9:43:35 AM
+Compilation started at 11/6/2023, 10:09:54 AM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c: In function 'is_composite':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:35:17: error: invalid operands to binary % (have 'float' and 'int')
+             if(n%i==0){
+                 ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:39:22: error: invalid operands to binary % (have 'float' and 'int')
+             else if(n%i!=0){
+                      ^
+Compilation finished at 11/6/2023, 10:09:54 AM
+Compilation started at 11/6/2023, 10:33:18 AM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/6/2023, 10:33:19 AM
+Compilation started at 11/6/2023, 10:38:01 AM
+Compilation finished at 11/6/2023, 10:38:01 AM

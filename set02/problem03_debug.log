@@ -1,0 +1,162 @@
++l
+48	        printf("%d is a composite number.\n", n);
+49	    }
+50	    else if(result==1){
+51	        printf("%d is a prime number.\n", n);
+52	    }
+53	}
+54	
+55	int main(void){
+56	    int n, iscomp;
+57	    n = input_number();
++b 34
+Breakpoint 1 at 0x40149e: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c, line 34.
++b 43
+Breakpoint 2 at 0x4014f2: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c, line 43.
++b 58
+Breakpoint 3 at 0x40154b: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c, line 58.
++b 59
+Breakpoint 4 at 0x40155b: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c, line 59.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040149e in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:34
+2       breakpoint     keep y   0x004014f2 in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:43
+3       breakpoint     keep y   0x0040154b in main 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:58
+4       breakpoint     keep y   0x0040155b in main 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:59
++b 36
+Breakpoint 5 at 0x4014b4: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c, line 36.
++b 40
+Breakpoint 6 at 0x4014ca: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c, line 40.
++b 28
+Breakpoint 7 at 0x401485: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c, line 28.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040149e in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:34
+2       breakpoint     keep y   0x004014f2 in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:43
+3       breakpoint     keep y   0x0040154b in main 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:58
+4       breakpoint     keep y   0x0040155b in main 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:59
+5       breakpoint     keep y   0x004014b4 in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:36
+6       breakpoint     keep y   0x004014ca in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:40
+7       breakpoint     keep y   0x00401485 in input_number 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:28
++r
+Starting program: C:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02/./problem03.exe 
+[New Thread 14640.0x28d0]
+[New Thread 14640.0x934]
+
+Breakpoint 7, input_number () at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:28
+28	    return n;
++print n
+$1 = 15
++next
+29	}
++next
+
+Breakpoint 3, main () at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:58
+58	    iscomp= is_composite(n);
++print iscomp
+$2 = 3158016
++step
+is_composite (n=15) at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:32
+32	    int i=0;
++print i
+$3 = 15
++print n
+$4 = 15
++print i
+$5 = 15
++next
+[New Thread 14640.0x2e34]
+33	    int flag=0;
++print flag
+$6 = 6422280
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/6/2023, 10:06:32 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++print flag
+$7 = 6422280
++step
+
+Breakpoint 1, is_composite (n=15) at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:34
+34	        for(i=0; i<=sqrt(n); i++){
++print i
+$8 = 0
++print sqrt(n
+A syntax error in expression, near `'.
++print sqrt(n)
+$9 = 6
++print n
+$10 = 15
++gcc -g "c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c" -o "c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++gcc -g "c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c" -o "c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: C:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02/./problem03.exe 
+[New Thread 7492.0xd2c]
+[New Thread 7492.0x1470]
+
+Breakpoint 7, input_number () at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:28
+28	    return n;
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040149e in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:34
+2       breakpoint     keep y   0x004014f2 in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:43
+3       breakpoint     keep y   0x0040154b in main 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:58
+4       breakpoint     keep y   0x0040155b in main 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:59
+5       breakpoint     keep y   0x004014b4 in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:36
+6       breakpoint     keep y   0x004014ca in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:40
+7       breakpoint     keep y   0x00401485 in input_number 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:28
+	breakpoint already hit 1 time
++disable 1
++disable 2
++disable 3
++disable 4
++disable 5
++disable 6
++disable 7
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep n   0x0040149e in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:34
+2       breakpoint     keep n   0x004014f2 in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:43
+3       breakpoint     keep n   0x0040154b in main 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:58
+4       breakpoint     keep n   0x0040155b in main 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:59
+5       breakpoint     keep n   0x004014b4 in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:36
+6       breakpoint     keep n   0x004014ca in is_composite 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:40
+7       breakpoint     keep n   0x00401485 in input_number 
+                                           at c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem03.c:28
+	breakpoint already hit 1 time
++q
+A debugging session is active.
+
+	Inferior 1 [process 7492] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
