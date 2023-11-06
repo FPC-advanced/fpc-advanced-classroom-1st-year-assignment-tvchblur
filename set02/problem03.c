@@ -44,8 +44,9 @@ int is_composite(int n){
 
 void output(int n, int result){
     if(flag=0){
-        printf("The number is ")
+        printf("%d is a composite number.\n", n);
     }
+    
 
 }
 
