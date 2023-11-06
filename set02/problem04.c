@@ -20,4 +20,10 @@ void output(int sum);
 #include <stdio.h>
 #include <math.h>
 
-int input_array_size()
+int input_array_size(){
+    int n;
+    printf("Enter the size of the array:\n");
+    return n;
+}
+
+void input_array
