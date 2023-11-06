@@ -33,3 +33,7 @@ void input_array(int n, int a[n]){
         scanf("%d", &a[index]);
     }
 }
+
+int sum_composite_numbers(int n, int a[n]){
+    
+}
