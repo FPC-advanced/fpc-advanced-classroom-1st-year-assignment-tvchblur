@@ -25,8 +25,12 @@ int find_gcd(int a, int b){
         if(a>b){
             a = a-b;
         }
-        else if(b>m){
-            n = n-m;
+        else if(b>a){
+            b = b-a;
+        }
+        if(a==b){
+            return a;
+            break;
         }
     }
 }
