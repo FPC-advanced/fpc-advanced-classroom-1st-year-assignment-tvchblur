@@ -23,7 +23,11 @@ int find_gcd(int a, int b){
     int temp;
     while(1){
         if(m>n){
+            m = m-n;
+        }
+        else if(n>m){
             
+
         }
     }
 }
