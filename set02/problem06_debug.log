@@ -10,3 +10,9 @@ warning: Source file is more recent than executable.
 27	int main(void){
 28	    char str[100], rev_str[100];
 29	    input_string(str);
++b 13
+Breakpoint 1 at 0x401472: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c, line 13.
++b 18
+Breakpoint 2 at 0x401495: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c, line 18.
++b 19
+Breakpoint 3 at 0x40149e: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c, line 19.
