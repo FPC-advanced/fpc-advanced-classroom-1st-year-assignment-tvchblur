@@ -74,3 +74,52 @@ c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assign
      ^~~~~~
 c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:24:5: note: include '<stdio.h>' or provide a declaration of 'printf'
 Compilation finished at 11/8/2023, 7:11:10 PM
+Compilation started at 11/8/2023, 7:12:00 PM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c: In function 'input_string':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:12:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter a string to be reversed:\n");
+     ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:12:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:12:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:13:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%s", str);
+     ^~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:13:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:13:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c: In function 'output':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:24:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("The reversed string is %s:\n", rev_str);
+     ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:24:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c: In function 'main':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:29:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(&str);
+                  ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:11:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void input_string(char *str){
+      ^~~~~~~~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:30:17: warning: passing argument 1 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(&str, &rev_str);
+                 ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:16:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void str_reverse(char *str, char *rev_str){
+      ^~~~~~~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:30:23: warning: passing argument 2 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(&str, &rev_str);
+                       ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:16:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void str_reverse(char *str, char *rev_str){
+      ^~~~~~~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:31:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&str, &rev_str);
+            ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:23:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void output(char *str, char *rev_str){
+      ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:31:18: warning: passing argument 2 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&str, &rev_str);
+                  ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:23:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void output(char *str, char *rev_str){
+      ^~~~~~
+Compilation finished at 11/8/2023, 7:12:00 PM

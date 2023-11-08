@@ -16,7 +16,7 @@ void input_string(char *str){
 void str_reverse(char *str, char *rev_str){
     int i=0;
     for(i=0; str[i]!='\0';i++){
-        *rev_str[i] = str[-i]; // if logical error, change condition in line 18 to for(i=0; str[-i]!='\0';i++)
+        rev_str[i] = str[-i]; // if logical error, change condition in line 18 to for(i=0; str[-i]!='\0';i++)
     }
 }
 
@@ -26,8 +26,8 @@ void output(char *str, char *rev_str){
 
 int main(void){
     char str[100], rev_str[100];
-    input_string(str);
-    str_reverse(str, rev_str);
-    output(str, rev_str);
+    input_string(&str);
+    str_reverse(&str, &rev_str);
+    output(&str, &rev_str);
     return 0;
 }
