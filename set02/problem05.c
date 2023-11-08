@@ -13,6 +13,8 @@ void output(int a, int b, int gcd);
 #include <stdio.h>
 
 int input(){
+    int n;
+    printf("Enter a number:\n")
 
 }
 
@@ -25,5 +27,6 @@ void output(int a, int b, int gcd){
 }
 
 int main(void){
-    int a = input()
+    int a = input();
+    int b = input();
 }
