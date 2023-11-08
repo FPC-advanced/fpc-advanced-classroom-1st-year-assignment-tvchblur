@@ -1,0 +1,12 @@
++l
+warning: Source file is more recent than executable.
+20	    }
+21	}
+22	
+23	void output(char *str, char *rev_str){
+24	    printf("The reversed string is %s:\n", rev_str);
+25	}
+26	
+27	int main(void){
+28	    char str[100], rev_str[100];
+29	    input_string(str);
