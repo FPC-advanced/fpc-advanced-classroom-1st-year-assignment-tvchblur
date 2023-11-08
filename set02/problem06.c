@@ -30,6 +30,7 @@ void output(char *a, char *reverse_a){
 }
 
 int main(void){
-    char a[100] = input_string()
+    char a[100];
+    input_string(a);
 
 }
