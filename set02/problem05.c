@@ -21,10 +21,11 @@ int input(){
 
 int find_gcd(int a, int b){
     int temp;
-    if(a>b){
-        
+    while(1){
+        if(m>n){
+            
+        }
     }
-
 }
 
 void output(int a, int b, int gcd){
