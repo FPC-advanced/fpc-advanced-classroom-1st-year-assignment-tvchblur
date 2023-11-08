@@ -21,7 +21,7 @@ void str_reverse(char *str, char *rev_str){
 }
 
 void output(char *str, char *rev_str){
-    
+    printf("The reversed string is %s:\n", rev_str);
 
 }
 
