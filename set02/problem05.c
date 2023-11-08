@@ -20,6 +20,7 @@ int input(){
 }
 
 int find_gcd(int a, int b){
+    
 
 }
 
@@ -30,6 +31,6 @@ void output(int a, int b, int gcd){
 int main(void){
     int a = input();
     int b = input();
-    int gcd = find_gcd();
-    output()
+    int gcd = find_gcd(a,b);
+    output(a, b, gcd);
 }
