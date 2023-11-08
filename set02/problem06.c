@@ -17,6 +17,9 @@ hello
 olleh*/
 
 void input_string(char *a){
+    printf("Enter a string to be reversed:\n");
+    scanf("%s", a);
+    
 
 }
 
@@ -29,5 +32,5 @@ void output(char *a, char *reverse_a){
 }
 
 int main(void){
-    
+
 }
