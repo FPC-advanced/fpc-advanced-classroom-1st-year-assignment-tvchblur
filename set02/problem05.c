@@ -20,7 +20,10 @@ int input(){
 }
 
 int find_gcd(int a, int b){
-    
+    int temp;
+    if(a>b){
+        
+    }
 
 }
 
