@@ -27,13 +27,18 @@ void input_array(int n, int a[n]){
 }
 
 int sum_composite_numbers(int n, int a[n]){
-    int sum=0;
-    int index, counter, result;
+    int index, sum=0;
+    int div;
+    int result=0;
     for(index=0;index<n;index++){
-        for(counter=2; counter<=sqrt(a[index]);counter++){
-            if(a[index]%counter==0){
-                sum += a[index];
+        for(div=2; div<=sqrt(a[index]);div++){
+            if(a[index]%div==0){
+                result=1;
+                break;
             }
+        }
+        if(result){
+            sum += a[index];
         }
     }
     return sum;
