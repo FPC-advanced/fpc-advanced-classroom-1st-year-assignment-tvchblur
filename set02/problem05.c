@@ -22,10 +22,10 @@ int input(){
 int find_gcd(int a, int b){
     int temp;
     while(1){
-        if(m>n){
-            m = m-n;
+        if(a>b){
+            a = a-b;
         }
-        else if(n>m){
+        else if(b>m){
             n = n-m;
         }
     }
