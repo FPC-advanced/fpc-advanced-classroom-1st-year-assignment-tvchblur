@@ -37,7 +37,7 @@ int sum_composite_numbers(int n, int a[n]){
                 break;
             }
         }
-        if(result){
+        if(result==1){
             sum += a[index];
         }
     }
