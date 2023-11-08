@@ -20,4 +20,10 @@ int find_gcd(int a, int b){
 
 }
 
-void output(int a, int b, int )
+void output(int a, int b, int gcd){
+
+}
+
+int main(void){
+    int a = input()
+}
