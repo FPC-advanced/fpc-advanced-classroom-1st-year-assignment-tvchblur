@@ -16,3 +16,21 @@ c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assign
      ^~~~~~
 c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:24:5: note: include '<stdio.h>' or provide a declaration of 'printf'
 Compilation finished at 11/8/2023, 7:09:40 PM
+Compilation started at 11/8/2023, 7:10:29 PM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c: In function 'input_string':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:12:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter a string to be reversed:\n");
+     ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:12:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:12:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:13:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%s", str);
+     ^~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:13:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:13:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c: In function 'output':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:24:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("The reversed string is %s:\n", rev_str);
+     ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:24:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/8/2023, 7:10:30 PM
