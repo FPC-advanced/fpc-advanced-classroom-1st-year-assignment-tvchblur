@@ -16,3 +16,10 @@ hello
 ```
 olleh*/
 
+void input_string(char *a){
+
+}
+
+void str_reverse(char *str, char *rev_str){
+
+}
