@@ -6,7 +6,8 @@ void output(char *a, char *reverse_a);
 ***Input***
 hello
 ***Output***
-olleh*/
+olleh olleh oleeehh oleh oleh ooooohh*/
+#include <stdio.h>
 
 void input_string(char *str){
     printf("Enter a string to be reversed:\n");
@@ -16,12 +17,12 @@ void input_string(char *str){
 void str_reverse(char *str, char *rev_str){
     int i=0;
     for(i=0; str[i]!='\0';i++){
-        rev_str[i] = str[-i]; // if logical error, change condition in line 18 to for(i=0; str[-i]!='\0';i++)
+        rev_str[i] = str[-i];
     }
 }
 
 void output(char *str, char *rev_str){
-    printf("The reversed string is %s:\n", rev_str);
+    printf("The reversed string is: %s\n", rev_str);
 }
 
 int main(void){

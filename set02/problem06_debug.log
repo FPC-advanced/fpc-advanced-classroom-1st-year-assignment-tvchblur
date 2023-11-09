@@ -16,3 +16,16 @@ Breakpoint 1 at 0x401472: file c:\Users\hp\github-classroom\FPC-advanced\fpc-adv
 Breakpoint 2 at 0x401495: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c, line 18.
 +b 19
 Breakpoint 3 at 0x40149e: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c, line 19.
++b 29
+Breakpoint 4 at 0x4014fa: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c, line 29.
++b 30
+Breakpoint 5 at 0x401506: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c, line 30.
++b 21
+Breakpoint 6 at 0x4014ca: file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c, line 21.
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/8/2023, 7:23:23 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++q

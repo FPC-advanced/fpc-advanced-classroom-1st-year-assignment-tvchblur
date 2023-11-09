@@ -123,3 +123,71 @@ c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assign
  void output(char *str, char *rev_str){
       ^~~~~~
 Compilation finished at 11/8/2023, 7:12:00 PM
+Compilation started at 11/8/2023, 7:23:57 PM
+Compilation finished at 11/8/2023, 7:23:58 PM
+Compilation started at 11/8/2023, 7:50:22 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/8/2023, 7:50:23 PM
+Compilation started at 11/8/2023, 7:50:33 PM
+Compilation finished at 11/8/2023, 7:50:34 PM
+Compilation started at 11/8/2023, 7:51:04 PM
+Compilation finished at 11/8/2023, 7:51:04 PM
+Compilation started at 11/8/2023, 7:51:23 PM
+Compilation finished at 11/8/2023, 7:51:24 PM
+Compilation started at 11/8/2023, 7:51:36 PM
+Compilation finished at 11/8/2023, 7:51:36 PM
+Compilation started at 11/8/2023, 7:51:55 PM
+Compilation finished at 11/8/2023, 7:51:56 PM
+Compilation started at 11/8/2023, 7:59:50 PM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c: In function 'main':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:31:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(&str);
+                  ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:13:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void input_string(char *str){
+      ^~~~~~~~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:32:17: warning: passing argument 1 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(&str, &rev_str);
+                 ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:18:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void str_reverse(char *str, char *rev_str){
+      ^~~~~~~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:32:23: warning: passing argument 2 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(&str, &rev_str);
+                       ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:18:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void str_reverse(char *str, char *rev_str){
+      ^~~~~~~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:33:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&str, &rev_str);
+            ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:25:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void output(char *str, char *rev_str){
+      ^~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:33:18: warning: passing argument 2 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&str, &rev_str);
+                  ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:25:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void output(char *str, char *rev_str){
+      ^~~~~~
+Compilation finished at 11/8/2023, 7:59:51 PM
+Compilation started at 11/8/2023, 8:00:11 PM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c: In function 'main':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:32:22: warning: passing argument 2 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(str, &rev_str);
+                      ^
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:18:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void str_reverse(char *str, char *rev_str){
+      ^~~~~~~~~~~
+Compilation finished at 11/8/2023, 8:00:11 PM
+Compilation started at 11/8/2023, 8:00:28 PM
+Compilation finished at 11/8/2023, 8:00:28 PM
+Compilation started at 11/8/2023, 8:08:54 PM
+Compilation finished at 11/8/2023, 8:08:54 PM
+Compilation started at 11/8/2023, 8:09:20 PM
+Compilation finished at 11/8/2023, 8:09:20 PM
+Compilation started at 11/8/2023, 8:12:57 PM
+Compilation finished at 11/8/2023, 8:12:57 PM
+Compilation started at 11/9/2023, 11:04:41 AM
+Compilation finished at 11/9/2023, 11:04:42 AM
