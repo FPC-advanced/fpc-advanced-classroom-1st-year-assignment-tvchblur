@@ -17,4 +17,7 @@ The smallest triangle out of triangles with base and height (2,3) , (4,6) is the
 
 typedef struct _triangle{float base, altitude, area;} Triangle;
 
-int input_n()
+int input_n();
+void input_n_triangles(int n, Triangle t[n]){
+    
+}
