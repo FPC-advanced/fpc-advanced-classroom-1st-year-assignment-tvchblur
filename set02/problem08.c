@@ -20,8 +20,8 @@ typedef struct _triangle{float base, altitude, area;} Triangle;
 int input_n(){
     int n;
     printf("Enter the number of triangles:\n");
-    scanf("%i")
-
+    scanf("%i", &n);
+    return n;
 }
 
 void input_n_triangles(int n, Triangle t[n]){
@@ -41,5 +41,5 @@ void output(int n, Triangle t[n], Triangle smallest){
 }
 
 int main(void){
-
+    int n=
 }
