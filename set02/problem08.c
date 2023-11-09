@@ -10,14 +10,9 @@ void find_area(Triangle *t);
 void find_n_areas(int n, Triangle t[n]);
 Triangle find_smallest_triangle(int n, Triangle t[n]);
 void output(int n, Triangle t[n], Triangle smallest);
-```
-
-***Input***
-```
+Input
 2 3
 4 6
-```
-
 ***Output***
 ```
 The smallest triangle out of triangles with base and height (2,3) , (4,6) is the triangle having base 2.00, height 3.00 and area 3.00
