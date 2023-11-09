@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-void input(char *str)
+void input(char *str){
+    printf("Enter the string:\n");
+    scanf("%s", str);
+}
 
 
 int main(void){
