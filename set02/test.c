@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+
 int main(void){
     char str[100] = "gjdnr;g ehoejfoiwe reofniewio reifwnofiw.";
     int i=0;
