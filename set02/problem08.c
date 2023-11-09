@@ -30,10 +30,11 @@ void input_n_triangles(int n, Triangle t[n]){
         printf("Enter the base and altitude of the triangle:\n");
         scanf("%f%f", &t[index].base, &t[index].altitude);
     }
-
 }
 
 void find_n_areas(int n, Triangle t[n]){
+    int index=0;
+    
 
 }
 
