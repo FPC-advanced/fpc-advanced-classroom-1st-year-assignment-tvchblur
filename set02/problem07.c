@@ -26,7 +26,7 @@ void find_area(Triangle *t){
     t->area = t->base * t->altitude;
 }
 void output(Triangle t){
-
+    printf("")
 }
 
 int main(void){
