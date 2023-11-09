@@ -14,6 +14,6 @@ o:The area of triangle wwith base = 2.000000 and altitude = 3.000000 is 3.000000
 
 typedef struct _triangle{
     float base, altitude, area;
-}
+} Triangle;
 
-
+Triangle input_triangle
