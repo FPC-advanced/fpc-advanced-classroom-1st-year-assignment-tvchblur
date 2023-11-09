@@ -31,9 +31,9 @@ void output(Triangle t){
 
 int main(void){
     Triangle t=input_triangle();
-    find_area
-
-
+    find_area(&t);
+    output(t);
+    return 0;
 }
 
 
