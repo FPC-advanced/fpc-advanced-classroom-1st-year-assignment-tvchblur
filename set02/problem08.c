@@ -44,4 +44,5 @@ int main(void){
     int n= input_n();
     Triangle t[n];
     input_n_triangles(n, t);
+    
 }
