@@ -17,8 +17,8 @@ void input_string(char *str){
 void str_reverse(char *str, char *rev_str){
     int i=0;
     for(i=0; str[i]!='\0';i++){
-        printf(" \n",str[-i]) ;
-        //*rev_str[i] = str[-i];
+       
+        rev_str[i] = str[-i];
     }
 }
 
