@@ -17,9 +17,17 @@ typedef struct _triangle{
 } Triangle;
 
 Triangle input_triangle(){
+
+}
+void find_area(Triangle *t){
+
+}
+void output(Triangle t){
+
+}
+
+int main(void){
     
 }
-void find_area(Triangle *t);
-void output(Triangle t);
 
 
