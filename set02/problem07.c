@@ -26,7 +26,7 @@ void find_area(Triangle *t){
     t->area = t->base * t->altitude;
 }
 void output(Triangle t){
-    printf("")
+    printf("The area of triangle with abse %f")
 }
 
 int main(void){
