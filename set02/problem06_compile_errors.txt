@@ -193,3 +193,17 @@ Compilation started at 11/9/2023, 11:04:41 AM
 Compilation finished at 11/9/2023, 11:04:42 AM
 Compilation started at 11/9/2023, 11:15:14 AM
 Compilation finished at 11/9/2023, 11:15:14 AM
+Compilation started at 11/9/2023, 11:16:42 AM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c: In function 'main':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:29:33: error: invalid initializer
+     char str[100], rev_str[100]='0';
+                                 ^~~
+Compilation finished at 11/9/2023, 11:16:43 AM
+Compilation started at 11/9/2023, 11:16:51 AM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c: In function 'main':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:29:33: error: invalid initializer
+     char str[100], rev_str[100]=0;
+                                 ^
+Compilation finished at 11/9/2023, 11:16:51 AM
+Compilation started at 11/9/2023, 11:16:58 AM
+Compilation finished at 11/9/2023, 11:16:59 AM
