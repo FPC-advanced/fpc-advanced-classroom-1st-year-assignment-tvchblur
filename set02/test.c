@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+void input(char *str)
 
 
 int main(void){
-    char str[100] = "gjdnr;g ehoejfoiwe reofniewio reifwnofiw.";
+    char str[100] = input();
     int i=0;
     int counts = 0;
     for(i=0; str[i]!='\0'; i++){
