@@ -26,7 +26,7 @@ void output(char *str, char *rev_str){
 }
 
 int main(void){
-    char str[100], rev_str[100];
+    char str[100], rev_str[100]='0';
     input_string(str);
     str_reverse(str, rev_str);
     output(str, rev_str);
