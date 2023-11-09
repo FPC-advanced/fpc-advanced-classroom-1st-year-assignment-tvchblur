@@ -34,7 +34,9 @@ void input_n_triangles(int n, Triangle t[n]){
 
 void find_n_areas(int n, Triangle t[n]){
     int index=0;
-    for(index)
+    for(index=0;index<n;index++){
+        t->area = 0.5(t->base)
+    }
 
 }
 
