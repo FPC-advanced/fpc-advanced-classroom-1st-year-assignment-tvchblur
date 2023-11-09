@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-void input(char *str){
+void input(char *str[100]){
     printf("Enter the string:\n");
     scanf("%s", str);
 }
 
 
 int main(void){
-    char str[100] = input();
+    char str[100];
+    input();
     int i=0;
     int counts = 0;
     for(i=0; str[i]!='\0'; i++){
