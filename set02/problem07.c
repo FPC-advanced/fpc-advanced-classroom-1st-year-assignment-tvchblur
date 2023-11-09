@@ -23,7 +23,7 @@ Triangle input_triangle(){
     return t;
 }
 void find_area(Triangle *t){
-    *t.area = t.base
+    *t.area = t->base * *t->altitude
 }
 void output(Triangle t){
 
