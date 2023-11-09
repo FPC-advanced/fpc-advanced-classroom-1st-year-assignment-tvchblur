@@ -37,7 +37,6 @@ void find_n_areas(int n, Triangle t[n]){
     for(index=0;index<n;index++){
         t[index]->area = 0.5*(t[index]->base * t[index]->altitude);
     }
-
 }
 
 Triangle find_smallest_triangle(int n, Triangle t[n]){
