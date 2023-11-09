@@ -207,3 +207,15 @@ c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assign
 Compilation finished at 11/9/2023, 11:16:51 AM
 Compilation started at 11/9/2023, 11:16:58 AM
 Compilation finished at 11/9/2023, 11:16:59 AM
+Compilation started at 11/9/2023, 11:17:49 AM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c: In function 'str_reverse':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:18:14: error: 'rev_str' redeclared as different kind of symbol
+     int i=0 ,rev_str[]=0;
+              ^~~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:17:35: note: previous definition of 'rev_str' was here
+ void str_reverse(char *str, char *rev_str){
+                                   ^~~~~~~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem06.c:18:24: error: invalid initializer
+     int i=0 ,rev_str[]=0;
+                        ^
+Compilation finished at 11/9/2023, 11:17:50 AM
