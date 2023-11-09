@@ -8,7 +8,7 @@ void input(char *str[100]){
 
 int main(void){
     char str[100];
-    input();
+    input(str);
     int i=0;
     int counts = 0;
     for(i=0; str[i]!='\0'; i++){
@@ -17,4 +17,5 @@ int main(void){
         }
     }
     printf("%i", counts+1);
+    return 0;
 }
