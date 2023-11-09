@@ -23,7 +23,7 @@ Triangle input_triangle(){
     return t;
 }
 void find_area(Triangle *t){
-
+    
 }
 void output(Triangle t){
 
