@@ -41,5 +41,6 @@ void output(int n, Triangle t[n], Triangle smallest){
 }
 
 int main(void){
-    int n=
+    int n= input_n();
+    Triangle
 }
