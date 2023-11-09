@@ -25,6 +25,11 @@ int input_n(){
 }
 
 void input_n_triangles(int n, Triangle t[n]){
+    int index=0;
+    for(index=0; index<n; index++){
+        printf("Enter the base and altitude of the triangle:\n");
+        
+    }
 
 }
 
