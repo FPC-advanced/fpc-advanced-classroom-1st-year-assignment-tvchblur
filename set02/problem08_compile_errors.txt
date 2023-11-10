@@ -10,3 +10,5 @@ c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assign
          t[index]->area = 0.5*(t[index]->base * t[index]->altitude);
                                                         ^~
 Compilation finished at 11/10/2023, 8:06:18 PM
+Compilation started at 11/10/2023, 8:14:04 PM
+Compilation finished at 11/10/2023, 8:14:05 PM
