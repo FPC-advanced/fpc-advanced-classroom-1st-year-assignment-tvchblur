@@ -49,11 +49,11 @@ Triangle find_smallest_triangle(int n, Triangle t[n]){
             t[i+1].area=temp;
         }
     }
-    return t[0].area;
+    return t[0];
 }
 
 void output(int n, Triangle t[n], Triangle smallest){
-    printf("The triangle with the smallest area is the triangle having base %\n", )
+    printf("The triangle with the smallest area is the triangle having base %f, height %f and area %f\n", )
 }
 
 int main(void){
