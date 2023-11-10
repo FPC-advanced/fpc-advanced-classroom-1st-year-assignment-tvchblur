@@ -53,7 +53,7 @@ Triangle find_smallest_triangle(int n, Triangle t[n]){
 }
 
 void output(int n, Triangle t[n], Triangle smallest){
-    printf("The triangle with the smallest area is:\n")
+    printf("The triangle with the smallest area is: %f\n", )
 }
 
 int main(void){
