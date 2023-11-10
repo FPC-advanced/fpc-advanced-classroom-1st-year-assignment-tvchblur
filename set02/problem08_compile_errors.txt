@@ -1,0 +1,12 @@
+Compilation started at 11/10/2023, 8:06:17 PM
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem08.c: In function 'find_n_areas':
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem08.c:38:17: error: invalid type argument of '->' (have 'Triangle {aka struct _triangle}')
+         t[index]->area = 0.5*(t[index]->base * t[index]->altitude);
+                 ^~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem08.c:38:39: error: invalid type argument of '->' (have 'Triangle {aka struct _triangle}')
+         t[index]->area = 0.5*(t[index]->base * t[index]->altitude);
+                                       ^~
+c:\Users\hp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-tvchblur\set02\problem08.c:38:56: error: invalid type argument of '->' (have 'Triangle {aka struct _triangle}')
+         t[index]->area = 0.5*(t[index]->base * t[index]->altitude);
+                                                        ^~
+Compilation finished at 11/10/2023, 8:06:18 PM
