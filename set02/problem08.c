@@ -49,7 +49,7 @@ Triangle find_smallest_triangle(int n, Triangle t[n]){
             t[i+1].area=temp;
         }
     }
-    return 
+    return t[0].area;
 }
 
 void output(int n, Triangle t[n], Triangle smallest){
