@@ -28,7 +28,6 @@ int main(void){
     float x1,x2,y1,y2,distance;
     input(&x1,&y1,&x2,&y2);
     distance = find_distance(x1,y1,x2,y2);
-    
-
-
+    output(x1,y1,x2,y2,distance);
+    return 0;
 }
