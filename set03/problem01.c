@@ -6,3 +6,6 @@ I:1 1
 2 2
 O:The distance between point (1.0000000, 1.0000000) and (2.0000000, 2.0000000) is 1.4142*/
 
+void input(float *x1, float *y1, float *x2, float *y2){
+    
+}
