@@ -17,6 +17,7 @@ void input(float *x1, float *y1, float *x2, float *y2){
 
 float find_distance(float x1, float y1, float x2, float y2){
     float distance = pow((pow(x1, 2)-pow(x2,2)) + (pow(y1,2)-pow(y2,2)), 0.5);
+    return distance;
 }
 
 void output(float x1, float y1, float x2, float y2, float distance){
