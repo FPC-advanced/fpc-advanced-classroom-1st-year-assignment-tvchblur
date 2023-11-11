@@ -21,7 +21,7 @@ float find_distance(float x1, float y1, float x2, float y2){
 }
 
 void output(float x1, float y1, float x2, float y2, float distance){
-    printf("The distance between point (%f, %f) and (%f, 2.0000000) is 1.4142")
+    printf("The distance between point (%f, %f) and (%f, %f) is %f", )
 }
 
 int main(void){
