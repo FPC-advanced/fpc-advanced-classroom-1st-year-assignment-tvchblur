@@ -2,13 +2,6 @@
 int input_number();
 int is_prime(int n);
 void output(int n, int result);
-```
+I:3
+O:3 is a prime number*/
 
-***Input***
-```
-3
-```
-
-***Output***
-```
-3 is a prime number*/
