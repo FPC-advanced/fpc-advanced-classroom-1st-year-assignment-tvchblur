@@ -25,6 +25,7 @@ int is_prime(int n){
             temp=0;
         }
     }
+    return temp;
 }
 
 void output(int n, int result){
