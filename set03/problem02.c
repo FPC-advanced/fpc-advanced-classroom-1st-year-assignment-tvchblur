@@ -11,7 +11,8 @@ O:The points (1.0, 1.0), (0.0, 0.0) and (1.0, 1.0) do not form a triangle*/
 
 void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float *y3){
     int x,y;
-    printf("")
+    printf("Enter the x and y coordinates:\n");
+    scanf("%f%f", )
 }
 int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3){}
 void output(float x1, float y1, float x2, float y2, float x3, float y3, int result){}
