@@ -9,9 +9,16 @@ O:3 is a prime number*/
 #include <math.h>
 
 int input_number(){
+    printf("Enter a number")
 }
 
 int is_prime(int n){
 }
 
-void output(int n, int result)
+void output(int n, int result){
+
+}
+
+int main(void){
+    return 0;
+}
