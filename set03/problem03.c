@@ -36,5 +36,6 @@ int main(void){
     int n=input_number();
     return 0;
     int is_prime = is_prime(n);
-    output(n,is_prime)
+    output(n,is_prime);
+    return 0;
 }
