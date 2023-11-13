@@ -8,3 +8,8 @@ O:3 is a prime number*/
 #include <stdio.h>
 #include <math.h>
 
+int input_number(){
+}
+
+int is_prime(int n){
+}
