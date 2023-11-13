@@ -17,7 +17,9 @@ int input_number(){
 
 int is_prime(int n){
     int i=0;
-    for(i=0; i<=sqrt(n); i++)
+    for(i=0; i<=sqrt(n); i++){
+        if(n%i==0)
+    }
 }
 
 void output(int n, int result){
