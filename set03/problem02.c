@@ -8,6 +8,7 @@ I:1 1
 O:The points (1.0, 1.0), (0.0, 0.0) and (1.0, 1.0) do not form a triangle*/
 
 #include <stdio.h>
+#include <math.h>
 
 void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float *y3){
     printf("Enter the x and y coordinates of the first point:\n");
@@ -29,7 +30,7 @@ int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3){
     Initialize flag=0 (not triangle)
     If all three conditions are true, is_triangle= 1 (is triangle);
     */
-   l1 = 
+   l1 = sqrt(pow(x1-x2,2));
 
 }
 void output(float x1, float y1, float x2, float y2, float x3, float y3, int result){
