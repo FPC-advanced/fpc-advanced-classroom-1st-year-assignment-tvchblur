@@ -21,6 +21,9 @@ int is_prime(int n){
         if(n%i==0){
             temp=1;
         }
+        else if(n%i!=0){
+            temp=0;
+        }
     }
 }
 
