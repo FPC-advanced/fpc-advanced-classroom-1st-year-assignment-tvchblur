@@ -30,9 +30,9 @@ int is_prime(int n){
 
 void output(int n, int result){
     if(n==1){
-        printf("1 is neither prime not composite");
+        printf("1 is neither prime not composite.\n");
     }
-    
+
     if(result==0){
         printf("%i is composite.\n", n);
     }
