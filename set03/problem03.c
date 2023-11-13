@@ -19,10 +19,10 @@ int is_prime(int n){
     int temp,i=0;
     for(i=0; i<=sqrt(n); i++){
         if(n%i==0){
-            temp=1;
+            temp=0;
         }
         else if(n%i!=0){
-            temp=0;
+            temp=1;
         }
     }
     return temp;
