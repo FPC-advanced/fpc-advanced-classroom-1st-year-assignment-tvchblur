@@ -37,7 +37,7 @@ void output(int n, int result){
         printf("%i is composite.\n", n);
     }
 
-    else if(result{
+    else if(result==1){
         printf("%f is prime.\n", n);
     }
 }
