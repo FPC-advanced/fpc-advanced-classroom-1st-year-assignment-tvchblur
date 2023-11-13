@@ -25,7 +25,7 @@ int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3){
     To find the side of a triangle given its x and y coordinates, we can use the distance equation where:
     l = sqrt(pow(x1-x2,2)+pow(y1-y2, 2)) 
     We can find l1,l2,l2 using this formula.
-    Then we have to check if (l1+l2>l3 && l1+l3>l2 && l2+l3>l1)
+    Then we have to check if (l1+l2>l3 || l1+l3>l2 || l2+l3>l1)
     Initialize flag=0 (not triangle)
     If all three conditions are true, is_triangle= 1 (is triangle);
     */
