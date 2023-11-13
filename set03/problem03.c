@@ -16,6 +16,8 @@ int input_number(){
 }
 
 int is_prime(int n){
+    int i=0;
+    
 }
 
 void output(int n, int result){
@@ -23,6 +25,6 @@ void output(int n, int result){
 }
 
 int main(void){
-    return 0;
     int n=input_number();
+    return 0;
 }
