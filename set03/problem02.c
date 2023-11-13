@@ -33,7 +33,8 @@ int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3){
    l1 = sqrt(pow(x1-x2,2)+pow(y1-y2,2));
    l2 = sqrt(pow(x2-x3,2)+pow(y1-y3,2));
    l2 = sqrt(pow(x1-x3,2)+pow(y1-y3,2));
-   int flag = 
+   int flag = 0;
+   if (l1+l2>l3)
 
 }
 void output(float x1, float y1, float x2, float y2, float x3, float y3, int result){
