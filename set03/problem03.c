@@ -29,13 +29,13 @@ int is_prime(int n){
 }
 
 void output(int n, int result){
-
+    if()
 }
 
 int main(void){
     int n=input_number();
     return 0;
-    int is_prime = is_prime(n);
-    output(n,is_prime);
+    int prime = is_prime(n);
+    output(n, prime);
     return 0;
 }
