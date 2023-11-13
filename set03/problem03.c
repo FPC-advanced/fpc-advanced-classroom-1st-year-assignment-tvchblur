@@ -29,7 +29,11 @@ int is_prime(int n){
 }
 
 void output(int n, int result){
-    if()
+    if(result==0){
+        printf("%i is composite.\n", n);
+    }
+
+    else
 }
 
 int main(void){
