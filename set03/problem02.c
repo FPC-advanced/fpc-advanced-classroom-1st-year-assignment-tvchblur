@@ -19,7 +19,8 @@ void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float
 }
 int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3){
     float l1,l2,l3;
-    /*to verify if three points form a triangle, we use the Triangl */
+    /*to verify if three points form a triangle, we use the Triangle Inequality Theorem
+    according to the TIT*/
 
 }
 void output(float x1, float y1, float x2, float y2, float x3, float y3, int result){
