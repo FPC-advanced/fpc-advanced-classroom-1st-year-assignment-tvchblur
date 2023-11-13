@@ -16,17 +16,6 @@ void input(float *x1, float *y1, float *x2, float *y2){
 }
 
 float find_distance(float x1, float y1, float x2, float y2){
-    if(pow(x1,2)-pow(x2,2)<0){
-        float temp = x2;
-        x2=x1;
-        x1=temp;
-    }
-
-    if (pow(y1,2)-pow(y2,2)<0){
-        float temp = y2;
-        y2=y1;
-        y1=temp;
-    }
     float distance = sqrt((pow(x1-x2,2)) + (pow(y1-y2,2)));
     return distance;
 }
