@@ -19,7 +19,7 @@ void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float
     scanf("%f%f", x3,y3);    
 }
 int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3){
-    float l1,l2,l3;
+
     /*
     To verify if three points form a triangle, we use the Triangle Inequality Theorem.
     According to the TIT, the sum of two sides of a triangle must be greater than the third side.
@@ -30,7 +30,8 @@ int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3){
     Initialize flag=0 (not triangle)
     If all three conditions are true, is_triangle= 1 (is triangle);
     */
-   l1 = sqrt(pow(x1-x2,2)+pow(y1-y2,2));
+    float l1,l2,l3;
+    l1 = sqrt(pow(x1-x2,2)+pow(y1-y2,2));
    l2 = sqrt(pow(x2-x3,2)+pow(y1-y3,2));
    l2 = sqrt(pow(x1-x3,2)+pow(y1-y3,2));
    int flag = 0;
@@ -38,7 +39,6 @@ int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3){
     flag=1;
    }
    return flag;
-   }
 }
 void output(float x1, float y1, float x2, float y2, float x3, float y3, int result){
     printf("The points (%f,%f), (%f,%f) and (%f%f) form a triangle.\n", x1, y1, x2, y2, x3, y3);
