@@ -5,3 +5,6 @@ void output(int n, int result);
 I:3
 O:3 is a prime number*/
 
+#include <stdio.h>
+#include <math.h>
+
