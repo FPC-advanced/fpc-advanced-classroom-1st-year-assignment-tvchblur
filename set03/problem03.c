@@ -17,13 +17,13 @@ int input_number(){
 
 int is_prime(int n){
     int result=1,i=0;
+    if(n==1){
+        result=2;
+    }
+    else{
+        
+    }
     for(i=2; i<=sqrt(n); i++){
-        if(n==1){
-            result==2;
-        }
-        else{
-            for
-        }
         if(n==1){
             break;
         }
@@ -36,7 +36,7 @@ int is_prime(int n){
 }
 
 void output(int n, int result){
-    if(n==1){
+    if(result==2){
         printf("1 is neither prime not composite.\n");
     }
 
