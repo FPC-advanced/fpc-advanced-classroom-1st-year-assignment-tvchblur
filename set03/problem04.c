@@ -10,6 +10,7 @@ O:fibo(5) = 5*/
 
 int find_fibo(int n){
     int a=0, b=1;
+    while()
     
     
 }
