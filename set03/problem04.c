@@ -17,14 +17,15 @@ int find_fibo(int n){
         a = a+b;
         b=t;
     }
-    return b;    
+    return a;    
 }
 void output(int n, int fibo){
-    printf("%i", fibo);
+    printf("%i\n", fibo);
 }
 int main(void){
     printf("Enter a number:\n");
-    int n = scanf("%i", &n);
+    int n;
+    scanf("%i", &n);
     int fibo = find_fibo(n);
     output(n, fibo);
     return 0;
