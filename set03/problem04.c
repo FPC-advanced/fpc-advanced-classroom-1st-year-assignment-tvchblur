@@ -19,12 +19,12 @@ int find_fibo(int n){
     return b;    
 }
 void output(int n, int fibo){
-    printf("")
-
+    printf("%i", fibo);
 }
 int main(void){
     printf("Enter a number:\n");
     int n = scanf("%i", &n);
+    
     
 
 }
