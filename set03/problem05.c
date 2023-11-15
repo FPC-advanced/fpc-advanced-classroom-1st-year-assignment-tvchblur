@@ -22,7 +22,7 @@ int input_array_size(){
 }
 void init_array(int n, int a[n]){
     for(int i=0; i<n; i++){
-        a[i] = i+1;
+        a[i] = i+2;
     }
 }
 void eratosthenes_sieve(int n, int a[n]){
