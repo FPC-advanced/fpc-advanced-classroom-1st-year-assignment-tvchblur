@@ -11,7 +11,7 @@ O:fibo(5) = 5*/
 int find_fibo(int n){
     int a=0, b=1;
     int i=0;
-    for(i=0; i<=n; i++){
+    for(i=0; i<n; i++){
         int t=a;
         a = a+b;
         b=t;
