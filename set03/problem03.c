@@ -16,16 +16,16 @@ int input_number(){
 }
 
 int is_prime(int n){
-    int temp=1,i=0;
+    int result=1,i=0;
     for(i=2; i<=sqrt(n); i++){
         if(n%i==0){
-            temp=0;
+            result=0;
         }
         else if(n%i!=0){
-            temp=1;
+            result=1;
         }
     }
-    return temp;
+    return result;
 }
 
 void output(int n, int result){
