@@ -6,3 +6,4 @@ void output(int n, int fibo);
 I:5
 O:fibo(5) = 5*/
 
+#
