@@ -44,7 +44,6 @@ void output(int n, int result){
 
 int main(void){
     int n=input_number();
-    return 0;
     int prime = is_prime(n);
     output(n, prime);
     return 0;
