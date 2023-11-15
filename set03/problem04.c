@@ -24,7 +24,7 @@ void output(int n, int fibo){
 int main(void){
     printf("Enter a number:\n");
     int n = scanf("%i", &n);
-    
-    
+    fibo = find_fibo(n);
+    output(n, fibo);    
 
 }
