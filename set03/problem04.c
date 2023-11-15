@@ -13,7 +13,8 @@ int find_fibo(int n){
     int i=0;
     for(i=0; i<=n; i++){
         int t=a;
-        
+        a = a+b;
+        b=t;
     }
     
     
