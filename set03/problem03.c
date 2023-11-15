@@ -19,6 +19,12 @@ int is_prime(int n){
     int result=1,i=0;
     for(i=2; i<=sqrt(n); i++){
         if(n==1){
+            result==2;
+        }
+        else{
+            for
+        }
+        if(n==1){
             break;
         }
         if(n%i==0){
