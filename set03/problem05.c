@@ -40,7 +40,7 @@ void eratosthenes_sieve(int n, int a[n]){
     }
 }
 void output(int n, int a[n]){
-    printf("The primes until %i using the Eratosthenes Sieve is:%i\n", n,a);
+    printf("The primes until %i using the Eratosthenes Sieve is:%d\n", n,a);
 }
 int main(void){
     int n = input_array_size();
