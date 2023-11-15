@@ -21,7 +21,9 @@ int is_prime(int n){
         result=2;
     }
     else{
-        
+        for(i=2;i<=sqrt(n); i++){
+            if(n%i==0)
+        }
     }
     for(i=2; i<=sqrt(n); i++){
         if(n==1){
