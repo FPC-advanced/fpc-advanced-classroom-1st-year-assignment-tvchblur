@@ -9,7 +9,8 @@ O:fibo(5) = 5*/
 #include <stdio.h>
 
 int find_fibo(int n){
-    int a=0
+    int a=0, b=1;
+    
     
 }
 void output(int n, int fibo){
