@@ -9,5 +9,11 @@ O:fibo(5) = 5*/
 #include <stdio.h>
 
 int find_fibo(int n){
+    printf("Enter a number:\n");
+    int n;
+    scanf()
 }
-void output(int n, int fibo);
+void output(int n, int fibo){}
+int main(void){
+
+}
