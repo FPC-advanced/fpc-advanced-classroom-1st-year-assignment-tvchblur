@@ -6,4 +6,8 @@ void output(int n, int fibo);
 I:5
 O:fibo(5) = 5*/
 
-#
+#include <stdio.h>
+
+int find_fibo(int n){
+}
+void output(int n, int fibo);
