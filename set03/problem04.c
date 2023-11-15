@@ -16,10 +16,10 @@ int find_fibo(int n){
         a = a+b;
         b=t;
     }
-    
-    
+    return b;    
 }
 void output(int n, int fibo){
+    printf("")
 
 }
 int main(void){
