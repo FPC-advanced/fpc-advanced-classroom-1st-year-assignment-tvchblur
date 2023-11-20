@@ -25,23 +25,26 @@ void init_array(int n, int a[n]){
         a[i] = i+2;
     }
 }
-void eratosthenes_sieve(int n, int a[n]){
-    int p=2;
-    int i=0;
-    for(p=2; p<=n; p++){
-        for(i=0;i<n;i++){
-            if(a[i]==p){
-                break;
-            }
-            else if(a[i]%p==0){
-                a[i]='\0';
+void eratosthenes_sieve(int n, int a[n]) {
+    for (int p = 2; p < n; p++) {
+        if (a[p - 2] != '\0') {
+            for (int i = p * 2; i <= n; i += p) {
+                a[i - 2] = 0;
             }
         }
     }
 }
-void output(int n, int a[n]){
-    printf("The primes until %i using the Eratosthenes Sieve is:%d\n", n,a);
+
+void output(int n, int a[n]) {
+    printf("The primes until %i using the Eratosthenes Sieve are:", n);
+    for (int i = 0; i < n - 1; i++) {
+        if (a[i] != 0) {
+            printf("%d, ", a[i]);
+        }
+    }
+    printf("%d\n", a[n - 1]);
 }
+
 int main(void){
     int n = input_array_size();
     int a[n];
