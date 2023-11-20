@@ -13,7 +13,8 @@ void input_string(char *string, char *substring){
     scanf("%s", substring);
 }
 int sub_str_index(char *string, char *substring){
-    int 
+    int index;
+    for(index=0; string[index])
 }
 void output(char *string, char *substring, int index){}
 
