@@ -11,7 +11,7 @@ int sub_str_index(char *string, char *substring){}
 void output(char *string, char *substring, int index){}
 
 int main(void){
-    char a[100], b[100];
-    input_string(a, b);
+    char string[100], substring[100];
+    input_string(string, substring);
     int index= sub_str_index()
 }
