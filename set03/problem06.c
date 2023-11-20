@@ -14,7 +14,9 @@ void input_string(char *string, char *substring){
 }
 int sub_str_index(char *string, char *substring){
     int index;
-    for(index=0; string[index]!='\0' && substring[index]!='\0')
+    for(index=0; string[index]!='\0' && substring[index]!='\0'; index++){
+        
+    }
 }
 void output(char *string, char *substring, int index){}
 
