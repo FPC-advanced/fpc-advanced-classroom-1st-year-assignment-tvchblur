@@ -14,5 +14,6 @@ int main(void){
     char string[100], substring[100];
     input_string(string, substring);
     int index= sub_str_index(string, substring);
-    output(string, substring, index)
+    output(string, substring, index);
+    return 0;
 }
