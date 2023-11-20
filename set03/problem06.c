@@ -12,7 +12,9 @@ void input_string(char *string, char *substring){
     printf("Enter the substring:\n");
     scanf("%s", substring);
 }
-int sub_str_index(char *string, char *substring){}
+int sub_str_index(char *string, char *substring){
+    int 
+}
 void output(char *string, char *substring, int index){}
 
 int main(void){
