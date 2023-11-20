@@ -8,6 +8,7 @@ O:The index of 'world' in 'helloworldhello' is 5*/
 
 void input_string(char *string, char *substring){
     printf("Enter a string:\n");
+    scanf("%s", string);
     
 }
 int sub_str_index(char *string, char *substring){}
