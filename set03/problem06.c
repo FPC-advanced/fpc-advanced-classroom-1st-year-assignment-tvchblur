@@ -6,12 +6,13 @@ I:helloworldhello
 world
 O:The index of 'world' in 'helloworldhello' is 5*/
 
-void input_string(char *a, char *b){}
+void input_string(char *string, char *substring){}
 int sub_str_index(char *string, char *substring){}
 void output(char *string, char *substring, int index){}
 
 int main(void){
     char string[100], substring[100];
     input_string(string, substring);
-    int index= sub_str_index()
+    int index= sub_str_index(string, substring);
+    output(string, substring, index)
 }
