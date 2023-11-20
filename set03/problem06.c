@@ -13,4 +13,5 @@ void output(char *string, char *substring, int index){}
 int main(void){
     char a[100], b[100];
     input_string(a, b);
+    
 }
