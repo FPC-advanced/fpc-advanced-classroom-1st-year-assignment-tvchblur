@@ -42,7 +42,7 @@ void output(int n, int a[n]) {
             printf("%d, ", a[i]);
         }
     }
-    printf("%d\n", a[n - 1]);
+    printf("%d\n", a[n-1]);
 }
 
 int main(void){
