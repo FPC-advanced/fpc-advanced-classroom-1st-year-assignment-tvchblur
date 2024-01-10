@@ -37,7 +37,7 @@ void eratosthenes_sieve(int n, int a[n]) {
 
 void output(int n, int a[n]) {
     printf("The primes until %i using the Eratosthenes Sieve are:", n);
-    for (int i = 0; i < n - 1; i++) {
+    for (int i = 0; i < n; i++) {
         if (a[i] != 0) {
             printf("%d, ", a[i]);
         }
