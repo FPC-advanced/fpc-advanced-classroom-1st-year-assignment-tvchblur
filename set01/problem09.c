@@ -17,15 +17,19 @@ float input(){
 }
 
 float square_root(float n){
-    float i;
-    for(i=1.4142;i*i<=n;i+=0.0001){
-        continue;
+    float guess=1.0, preguess;
+    if(n<0){
+        return -1.0;
     }
-    return i;
+    while(preguess!=guess){
+        preguess=guess;
+        guess = 0.5 * (guess + n/guess);
+    }
+    return guess;
 }
 
 void output(float n, float sqrroot){
-    printf("The square root of %.2f is %.3f", n, sqrroot);
+    printf("The square root of %f is %f", n, sqrroot);
 }
 
 int main(void){
